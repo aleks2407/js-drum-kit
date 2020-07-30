@@ -24,6 +24,8 @@
         const key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
         audio.play();
     }
+ 
+    window.addEventListener('keydown', playSound);
   </script>
 
   <!-- Leave this here, it renders the review buttons
