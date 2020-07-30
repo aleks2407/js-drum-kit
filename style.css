@@ -1,0 +1,43 @@
+body{
+    background-image: url(./image/photo-1506755594592-349d12a7c52a.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  
+}
+.keys{
+    display: flex;
+   
+  }
+ .key{
+     justify-content: center;
+     border: 4px solid white;
+     border-radius: 5px;
+     margin: 10px;
+     font-size: 15px;
+     padding: 10px 10px;
+     transition: all 0.07s;
+     width: 100px;
+     text-align: center;
+     color: black;
+     background-color: lightblue;
+     text-shadow: 0 0 5px  black;
+     margin-top: 30%;
+ 
+ }
+ .playing{
+     transform: scale(1.1);
+     border-color: black;
+     box-shadow: 0 0 10px black; 
+ }
+ kbd{
+     display: block;
+     font-size: 30px;
+ }
+ .sound{
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: blue;
+}
