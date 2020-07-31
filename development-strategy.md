@@ -56,7 +56,6 @@ __A user can press the displayed keys and hear the sound__
 ### Handlers:
 
 * Create a `playSound` event handler that checks to see if the pressed key has a linked audio sound. If it does, play the sound!
-* Create a `removeTransition` handler to remove the `.playing` class when a key is released
 * Update the `playHandler` to add the `.playing` class when a key is pressed
 ---
 
@@ -95,3 +94,7 @@ __A user can know which keys are currently pressed__
 ### Listeners:
 
 * Add a `transitionend` listener to each element with the `.key` class, with the `removeTransition` handler.
+
+### Handlers:
+
+* Create a `removeTransition` handler to remove the `.playing` class when a key is released.
